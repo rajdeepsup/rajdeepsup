@@ -115,9 +115,11 @@ color: rgb(246, 81, 26);
         }
         .mar
         {
-            width: 262PX;
+        width: 25%;
         height: 550px;
         display: flex;
+        justify-content: flex-end;
+        
         }
     
         
