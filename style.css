@@ -92,7 +92,7 @@ color: rgb(246, 81, 26);
     float: right;
 }
    
-    .container
+    .container0
     {
         width: 25%;
         height: 550px;
@@ -109,7 +109,7 @@ color: rgb(246, 81, 26);
           text-align:start;
           
         }
-       .container marquee a :hover
+       .container0 marquee a :hover
         {
             cursor: pointer;                  
         }
