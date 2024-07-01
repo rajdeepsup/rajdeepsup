@@ -1,69 +1,66 @@
-*
-{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+
 }
-body
-{
+
+body {
     background-image: url(img1.jpg);
     background-size: cover;
     background-position: center;
-    font-family:sans-serif
-    
-}
-.menu-bar
-{
-    height: 40px;
-    background: #638977d0;
-    text-align: center;  
+    font-family: sans-serif
 }
 
-.menu-bar ul 
-{
+.menu-bar {
+    height: 40px;
+    background: #638977d0;
+    text-align: center;
+}
+
+.menu-bar ul {
     display: inline-flex;
     list-style: none;
     color: #fff;
 
 }
-.menu-bar ul li
-{
+
+.menu-bar ul li {
     width: 100px;
     margin: 10px;
     padding: 1px;
 }
-.menu-bar ul li a
-{
+
+.menu-bar ul li a {
     text-decoration: none;
     color: #f4f409ef;
 }
-.active, .menu-bar ul li:hover
 
-{
+.active,
+.menu-bar ul li:hover {
     background: #2bab0d;
-    border-radius: 3px ;
+    border-radius: 3px;
 
 }
-.sub-menu-1
-{
+
+.sub-menu-1 {
     display: none;
 }
-.menu-bar ul li:hover .sub-menu-1
-{
+
+.menu-bar ul li:hover .sub-menu-1 {
     display: block;
     position: absolute;
     background: #055731d0;
 
 
 }
-.menu-bar ul li:hover .sub-menu-1 ul
-{
+
+.menu-bar ul li:hover .sub-menu-1 ul {
     display: block;
     margin: 10px;
 }
-.menu-bar ul li:hover .sub-menu-1 ul li
-{
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
     width: 100px;
     padding: 0px;
     border-bottom: 1px dotted #fff;
@@ -72,13 +69,11 @@ body
     text-align: left;
 }
 
-.menu-bar ul li:hover .sub-menu-1 ul li a:hover
-{
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
     color: rgb(246, 81, 26);
-} 
+}
 
-.notice-hader
-{
+.notice-hader {
     width: 25%;
     height: 25px;
     background-color: #f87008;
@@ -89,62 +84,65 @@ body
     margin-left: 70%;
     float: right;
 }
-   
-.container1
-{
+
+.container1 {
     padding-left: 10%;
     width: 70%;
     height: 550px;
     display: -webkit-inline-box;
     margin-left: 2%;
     background-image: url(cm.jpg);
-    background-size: 100% 100%;  
-    box-shadow: rgba(16, 111, 206, 0.2) 0px 8px 24px; 
+    background-size: 100% 100%;
+    box-shadow: rgba(16, 111, 206, 0.2) 0px 8px 24px;
     animation: changImage 30s linear infinite;
 }
+
 @keyframes changImage {
 
-    0%{
+    0% {
         background-image: url("cm.jpg");
     }
-    25%{
+
+    25% {
         background-image: url("2.jpg");
     }
-    50%{
+
+    50% {
         background-image: url("3.jpg");
     }
-    75%{
+
+    75% {
         background-image: url("4.jpg");
     }
-    100%{
+
+    100% {
         background-image: url("5.jpg");
     }
-    
+
 }
 
 
-.container
-{
+.container {
     width: 25%;
     height: 550px;
 
-    position:relative;
+    position: relative;
     background-color: hwb(194 23% 67%);
     float: right;
-    
-    
-    
+
 }
 
-marquee a
-{
+marquee a {
     color: hwb(74 13% 7%);
     font-size: 14px;
-    
-    
-}
-.container marquee a :hover
-{
-    cursor: pointer;                  
-}   
 
+
+}
+
+.container marquee a :hover {
+    cursor: pointer;
+}
+.mar {
+    width: 100%;
+    height: 550px; 
+}
