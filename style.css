@@ -18,7 +18,7 @@ body
 height: 40px;
     background: #638977d0;
     text-align: center;
-    
+  
     
   
 }
@@ -113,8 +113,13 @@ color: rgb(246, 81, 26);
         {
             cursor: pointer;                  
         }
-        
-
+        .mar
+        {
+            width: 25%;
+        height: 550px;
+        display: flex;
+        }
+    
         
 
 
