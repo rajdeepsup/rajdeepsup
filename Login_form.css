@@ -2,7 +2,7 @@ body{
    / background-color: orange;
     
 }
-.container 
+.container_1 
 {
     
     width: 380px;
@@ -53,7 +53,7 @@ body{
       
         background-color: rgb(182, 191, 19);
     }
-.container h1
+.container_1 h1
 {
     margin-bottom: 30px;
     
