@@ -84,10 +84,8 @@ h1 {
 
 table {
     padding-top: 5%;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-
+    width: 100%;
+    
 }
 
 table,
@@ -96,7 +94,7 @@ td {
     border: 1px solid rgb(245, 3, 3);
     padding-top: 10px;
     margin: 0px;
-    text-align: center;
+    text-align:center;
     border-collapse: collapse;
 }
 th, td {
