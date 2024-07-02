@@ -72,3 +72,33 @@ body {
     color: rgb(246, 81, 26);
 }
 
+h1 {
+    padding-top: 10px;
+    text-align: center;
+    color: #f3f3f5;
+    background: #004e4e;
+    margin-top: 15px;
+
+
+}
+
+table {
+    padding-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(245, 3, 3);
+    padding-top: 10px;
+    margin: 0px;
+    text-align: center;
+    border-collapse: collapse;
+}
+th, td {
+    background-color: #c7f4f4;
+  }
