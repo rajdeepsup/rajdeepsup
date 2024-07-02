@@ -1,6 +1,6 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 
 }
@@ -83,8 +83,10 @@ h1 {
 }
 
 table {
-    padding-top: 5%;
+    padding-top: 15%;
     width: 100%;
+    padding-left: ;
+    
     
 }
 
@@ -98,5 +100,5 @@ td {
     border-collapse: collapse;
 }
 th, td {
-    background-color: #c7f4f4;
+    background-color: #f4c7dd;
   }
